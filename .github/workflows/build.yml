@@ -6,7 +6,7 @@ on:
     - '!doc/contributors/**'
     - '!doc/design/**'
 jobs:
-  build:
+  image:
     runs-on: ubuntu-latest
     steps:
     - name: Check out the repo
